@@ -61,14 +61,19 @@ void fillSmoothingIron(Smoothing_iron& obj)
     cout << "\tSupply Steam             ::\t" << cin>> obj.supply_steam << endl;
     cout << "\tPower                    ::\t" << cin>>obj.power << endl;
 }
-void fillBoiler(Boiler)& obj)
+void fillBoiler(Boiler& obj)
 {
-    cout << "\tFirma                    ::\t" << getline(cin, obj.firm) << endl;
-    cout << "\tModel                    ::\t" << getline(cin, obj.model) << endl;
-    cout << "\tPower                    ::\t" << cin >> obj.power << endl;
-    cout << "\tVolume                   ::\t" << cin >> obj.volume << endl;
-    cout << "\tTemperature              ::\t  "       
-
+    cout << "\tFirma          ::\t" << getline(cin, obj.firm) << endl;
+    cout << "\tModel          ::\t" << getline(cin, obj.model) << endl;
+    cout << "\tPower          ::\t" << cin >> obj.power << endl;
+    cout << "\tVolume         ::\t" << cin >> obj.volume << endl;
+    cout << "\tTemperature    ::\t" << cin >> obj.temperature << endl;
+}
+void fillAnimals(Animals& obj)
+{
+    cout << "\tName       ::\t" << cin>>obj.name << endl;
+    cout << "\tClass      ::\t" << cin>>obj.clas << endl;
+    cout << "\tAlias      ::\t" << cin>>obj.alias << endl;
 }
 int main()
 {
