@@ -29,6 +29,11 @@ struct Animals
 };
 int main()
 {
-    1;
+    int size1 = 7;
+    int Smoothing_iron* tmp=arr[size1];
+    for (size_t i = 0; i < size1; i++)
+    {
+
+    }
 }
 
